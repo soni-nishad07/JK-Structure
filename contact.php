@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Title Tag -->
+  <title>Contact JKStructure | Get a Free Construction Quote or Consultation</title>
+
+  <!-- Meta Description -->
+  <meta name="description" content="Contact JKStructure today for a free construction quote or consultation. JKStructure is ready to discuss building needs and help achieve project goals. Get in touch!">
+
+  <!-- Target Keywords -->
+  <meta name="keywords" content="Contact construction company, request a quote, construction consultation, reach out to builders">
+
+  <!-- Author -->
+  <meta name="author" content="JKStructure">
+
+  <!-- Canonical URL -->
+
+  <!-- Open Graph for Social Sharing -->
+  <meta property="og:title" content="Contact JKStructure | Get a Free Construction Quote or Consultation" />
+  <meta property="og:description" content="Reach out to JKStructure for a free construction quote or consultation. We are ready to help with your building needs and project goals." />
+  <meta property="og:type" content="website" />
+
+ 
+      <?php include('link.php'); ?>
+
+</head>
+
+<body>
+
+        <?php include('nav.php'); ?>
+
+
+
+
+
+  <div class="slider">
+
+<div class="slides">
+
+  <img src="./Ongoing_project/2_Hinduja Holdings/Hinduja (1).jpg" alt="Slide 2">
+  <img src="./Ongoing_project/2_Hinduja Holdings/Hinduja (3).jpg" alt="Slide 3">    
+  <img src="./Ongoing_project/2_Hinduja Holdings/Hinduja (2).jpg" alt="Slide 3">
+  <img src="./Ongoing_project/2_Hinduja Holdings/Hinduja (4).jpg" alt="Slide 4">
+  <img src="./Ongoing_project/3_Skav developers put Ltd/Skav.jpg" alt="Slide 5">
+  <img src="./Ongoing_project/4_woodsvale/Woodsvale (1).jpg" alt="Slide 6">
+  <img src="./Ongoing_project/4_woodsvale/Woodsvale (2).jpg" alt="Slide 7">
+  <img src="./Ongoing_project/4_woodsvale/Woodsvale (3).jpg" alt="Slide 8">
+  <img src="./Ongoing_project/1_Ambiant Maangalya Ashirvad/Ambiant.jpg" alt="Slide 1">
+  
+</div>
+
+
+  <!-- Overlay -->
+  <div class="home_overlay"></div>
+
+<!-- Content -->
+<div class="home_content">
+<div class="home_main-text">
+<span class="home_highlight">CONTACT US</span>
+      </div>
+      <p>Get in touch with our expert team for consultation and project inquiries</p>
+</div>
+
+
+<!-- Navigation Arrows -->
+<button class="prev">&#10094;</button>
+<button class="next">&#10095;</button>
+</div>
+
+
+
+
+
+
+  <div class="contact_container">
+    <!-- Form Section -->
+<div class="contact_form_box"  id="enquiry">
+  <h2>Send us a Message</h2>
+  <form class="form-wrapper" 
+        action="https://formsubmit.co/sushilpani@jkstructure.com" 
+        method="POST">
+
+    <!-- Hidden inputs for formsubmit -->
+    <input type="hidden" name="_captcha" value="false">
+    <!-- <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html"> -->
+
+    <div class="form-card">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Full Name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="+91 9876543210" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" placeholder="Tell us about your project requirements..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </div>
+  </form>
+</div>
+
+    <!-- Contact Info Boxes -->
+    <div class="contact_info">
+      <div class="contact_info_box">
+        <div class="icons">
+      <i class="fa-solid fa-phone"></i>
+        </div>
+      <h3>Phone</h3>
+        <a href="tel:+919590714622">+91-9590714622</a>
+      </div>
+
+      <div class="contact_info_box">
+                <div class="icons">
+       <i class="fa-solid fa-envelope"></i>
+       </div>
+        <h3>Email</h3>
+        <a href="mailto:sushilpani@jkstructure.com">sushilpani@jkstructure.com</a>
+      </div>
+
+      <div class="contact_info_box">
+                <div class="icons">
+        <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <h3>Address</h3>
+        <p>No 21, 1st floor, 1st main road, 3rd Block, 3rd stage,<br>Basaveswarnagar, Bangalore-560079</p>
+      </div>
+
+      <div class="contact_info_box">
+                <div class="icons">
+        <i class="fa-solid fa-clock"></i>
+                </div>
+        <h3>Business Hours</h3>
+        <p>Mon - Sat: 9:00 AM - 6:00 PM</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <!-- ------------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+<script>
+const slides = document.querySelector('.slides');
+const images = document.querySelectorAll('.slides img');
+const prevBtn = document.querySelector('.prev');
+const nextBtn = document.querySelector('.next');
+
+let counter = 0;
+const totalSlides = images.length;
+
+function showSlide(index) {
+  if (index < 0) {
+    counter = totalSlides - 1;
+  } else if (index >= totalSlides) {
+    counter = 0;
+  } else {
+    counter = index;
+  }
+  slides.style.transform = `translateX(${-counter * 100}%)`;
+}
+
+prevBtn.addEventListener('click', () => {
+  showSlide(counter - 1);
+});
+
+nextBtn.addEventListener('click', () => {
+  showSlide(counter + 1);
+});
+
+// Optional Auto Slide (change time if needed)
+setInterval(() => {
+  showSlide(counter + 1);
+}, 5000);
+</script>
+
+
+  <?php include('footer.php'); ?>
+
+</body>
+</html>

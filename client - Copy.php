@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client</title>
+
+
+  <?php include('link.php'); ?>
+
+</head>
+
+<body>
+
+  <?php include('nav.php'); ?>
+
+
+
+
+
+  <div class="home_container">
+    <!-- Background Video -->
+    <video autoplay muted loop playsinline>
+      <source src="./images/nav.mp4" type="video/mp4">
+    </video>
+
+    <!-- Overlay -->
+    <div class="home_overlay"></div>
+
+    <!-- Content -->
+   <div class="home_content">
+      <div class="home_main-text">
+        <span class="home_highlight">OUR CLIENTS</span>
+      </div>
+      <!-- <p>Trusted by leading organizations across various sectors for our <br> engineering excellence and commitment</p> -->
+       <p>JK Structure collaborates with several renowned developers and architectural <br/> organizations. Below are a few of our esteemed partners in development and architecture.
+     </p>
+    </div>
+
+  </div>
+
+
+  <div class="clint_dev_container" aria-label="Developers and Architecture firms">
+
+  <div class="client-deve">
+        <header>
+      <h1>Developers & Architecture</h1>
+      <p class="subtitle">Explore the list of development and architectural partners.</p>
+    </header>
+
+    <div class="clint_dev_filters" role="tablist" aria-label="Filter by category">
+      <div aria-live="polite" class="clint_dev_filter-status clint_dev_visually-hidden" id="filter-status">
+        Showing all entries
+      </div>
+      <button class="clint_dev_btn active" role="tab" aria-selected="true" data-filter="all" aria-controls="clint_dev_cards">Show All</button>
+      <button class="clint_dev_btn" role="tab" aria-selected="false" data-filter="developers" aria-controls="clint_dev_cards">Developers</button>
+      <button class="clint_dev_btn" role="tab" aria-selected="false" data-filter="architecture" aria-controls="clint_dev_cards">Architecture</button>
+    </div>
+
+    <section class="grid" id="clint_dev_cards">
+      <!-- Developer clint_dev_cards -->
+      <div class="clint_dev_card" data-type="developers">
+        <div class="category-label">Developer</div>
+        <h3>Ambiant Housing & Construction Pvt Ltd</h3>
+        <ul class="client_list">
+          <li>Location: Bengaluru</li>
+        </ul>
+      </div>
+
+      <div class="clint_dev_card" data-type="developers">
+        <div class="category-label">Developer</div>
+        <h3>Hinduja Holdings</h3>
+        <ul class="client_list">
+          <li>Location: Bengaluru</li>
+        </ul>
+      </div>
+
+      <div class="clint_dev_card" data-type="developers">
+        <div class="category-label">Developer</div>
+        <h3>Skav Developers Pvt LTD</h3>
+        <ul class="client_list">
+          <li>Location: Bengaluru</li>
+        </ul>
+      </div>
+
+      <div class="clint_dev_card" data-type="developers">
+        <div class="category-label">Developer</div>
+        <h3>Woodsvale</h3>
+        <ul class="client_list">
+          <li>Location: Bengaluru</li>
+        </ul>
+      </div>
+
+      <div class="clint_dev_card" data-type="developers">
+        <div class="category-label">Developer</div>
+        <h3>Jai Bhuvan Builder Pvt. Ltd</h3>
+        <ul class="client_list">
+          <li>Location: Goa</li>
+        </ul>
+      </div>
+
+      <!-- Architecture clint_dev_cards -->
+      <div class="clint_dev_card" data-type="architecture">
+        <div class="category-label">Architecture</div>
+        <h3>Design Matters</h3>
+        <ul class="client_list">
+          <li>Location: Bengaluru</li>
+        </ul>
+      </div>
+
+      <div class="clint_dev_card" data-type="architecture">
+        <div class="category-label">Architecture</div>
+        <h3>Peddle Thorp Nadig Architecture Design Works</h3>
+        <ul class="client_list">
+          <li>Location: Bengaluru</li>
+        </ul>
+      </div>
+
+      <div class="clint_dev_card" data-type="architecture">
+        <div class="category-label">Architecture</div>
+        <h3>Haarsha Architects</h3>
+        <ul class="client_list">
+          <li>Location: Bengaluru</li>
+        </ul>
+      </div>
+
+      <div class="clint_dev_card" data-type="architecture">
+        <div class="category-label">Architecture</div>
+        <h3>Grey Brick Architects</h3>
+        <ul class="client_list">
+          <li>Location: Bengaluru</li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  </div>
+
+
+
+
+    <div class="ongoing_client_container" aria-label="Ongoing Projects">
+    <div class="ongoing_client_header">
+      <h1>Ongoing Projects</h1>
+      <p class="ongoing_client_sub">Live projects with their developers. Images are lazy-loaded; swap placeholder links with actual project photos.</p>
+    </div>
+
+    <div class="ongoing_client_grid">
+      <!-- Ambiant Maangalya Ashirvad -->
+      <div class="ongoing_client_card">
+        <div class="ongoing_client_image_wrapper">
+          <img 
+            class="ongoing_client_image" 
+           data-src="./Ongoing_project/1_Ambiant Maangalya Ashirvad/Ambiant.jpg" 
+            alt="Ambiant Maangalya Ashirvad, Bannerghatta Road, Bengaluru" 
+            loading="lazy"
+          />
+        </div>
+        <div class="ongoing_client_body">
+          <div class="ongoing_client_badge">Developer: Ambiant Housing &amp; Construction Pvt Ltd</div>
+          <h3 class="ongoing_client_title">Ambiant Maangalya Ashirvad</h3>
+          <p class="ongoing_client_location">Bannerghatta Road, Bengaluru</p>
+          <!-- <div class="ongoing_client_meta">
+            <div>Type: Ongoing</div>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- Hinduja El Jardin -->
+      <div class="ongoing_client_card">
+        <div class="ongoing_client_image_wrapper">
+          <img 
+            class="ongoing_client_image" 
+            data-src="./Ongoing_project/2_Hinduja Holdings/Hinduja (1).jpg" 
+            alt="Hinduja El Jardin, Thirumenahalli, Opp Thirumenahalli" 
+            loading="lazy"
+          />
+        </div>
+        <div class="ongoing_client_body">
+          <div class="ongoing_client_badge">Developer: Hinduja Holdings</div>
+          <h3 class="ongoing_client_title">Hinduja El Jardin</h3>
+          <p class="ongoing_client_location">Thirumenahalli, Opp Thirumenahalli</p>
+        </div>
+      </div>
+
+      <!-- Skav Infantry -->
+      <div class="ongoing_client_card">
+        <div class="ongoing_client_image_wrapper">
+          <img 
+            class="ongoing_client_image" 
+            data-src="./Ongoing_project/3_Skav developers put Ltd/Skav.jpg" 
+            alt="Skav Infantry, Infantry Road, Shivaji Nagar, Bangalore" 
+            loading="lazy"
+          />
+        </div>
+        <div class="ongoing_client_body">
+          <div class="ongoing_client_badge">Developer: Skav Developers Pvt Ltd</div>
+          <h3 class="ongoing_client_title">Skav Infantry</h3>
+          <p class="ongoing_client_location">Infantry Road, Shivaji Nagar, Bangalore</p>
+        </div>
+      </div>
+
+      <!-- Midori -->
+      <div class="ongoing_client_card">
+        <div class="ongoing_client_image_wrapper">
+          <img 
+            class="ongoing_client_image" 
+            data-src="./Ongoing_project/2_Hinduja Holdings/Hinduja (2).jpg" 
+            alt="Midori, Sarjapur Road, Bengaluru" 
+            loading="lazy"
+          />
+        </div>
+        <div class="ongoing_client_body">
+          <div class="ongoing_client_badge">Developer: Tattvam Ventures</div>
+          <h3 class="ongoing_client_title">Midori</h3>
+          <p class="ongoing_client_location">Sarjapur Road, Bengaluru</p>
+        </div>
+      </div>
+
+      <!-- Woodsvale (Villa) -->
+      <div class="ongoing_client_card">
+        <div class="ongoing_client_image_wrapper">
+          <img 
+            class="ongoing_client_image" 
+            data-src="./Ongoing_project/4_woodsvale/Woodsvale (1).jpg" 
+            alt="Woodsvale (Villa), Sarjapur Road, Bengaluru" 
+            loading="lazy"
+          />
+        </div>
+        <div class="ongoing_client_body">
+          <div class="ongoing_client_badge">Developer: Tattvam Ventures</div>
+          <h3 class="ongoing_client_title">Woodsvale (Villa)</h3>
+          <p class="ongoing_client_location">Sarjapur Road, Bengaluru</p>
+        </div>
+      </div>
+
+      <!-- Nature Nxt (Villa) -->
+      <div class="ongoing_client_card">
+        <div class="ongoing_client_image_wrapper">
+          <img 
+            class="ongoing_client_image" 
+            data-src="./Ongoing_project/4_woodsvale/Woodsvale (2).jpg" 
+            alt="Nature Nxt (Villa), Sarjapur Road, Bengaluru" 
+            loading="lazy"
+          />
+        </div>
+        <div class="ongoing_client_body">
+          <div class="ongoing_client_badge">Developer: Tattvam Ventures</div>
+          <h3 class="ongoing_client_title">Nature Nxt (Villa)</h3>
+          <p class="ongoing_client_location">Sarjapur Road, Bengaluru</p>
+
+        </div>
+      </div>
+
+      <!-- Azalea (Villa) -->
+      <div class="ongoing_client_card">
+        <div class="ongoing_client_image_wrapper">
+          <img 
+            class="ongoing_client_image" 
+            data-src="./Ongoing_project/4_woodsvale/Woodsvale (3).jpg" 
+            alt="Azalea (Villa), Sarjapur Road, Bengaluru" 
+            loading="lazy"
+          />
+        </div>
+        <div class="ongoing_client_body">
+          <div class="ongoing_client_badge">Developer: Tattvam Ventures</div>
+          <h3 class="ongoing_client_title">Azalea (Villa)</h3>
+          <p class="ongoing_client_location">Sarjapur Road, Bengaluru</p>
+
+        </div>
+      </div>
+
+      <!-- Mall De Goa -->
+      <div class="ongoing_client_card">
+        <div class="ongoing_client_image_wrapper">
+          <img 
+            class="ongoing_client_image" 
+            data-src="./Ongoing_project/2_Hinduja Holdings/Hinduja (3).jpg" 
+            alt="Mall De Goa, Goa" 
+            loading="lazy"
+          />
+        </div>
+        <div class="ongoing_client_body">
+          <div class="ongoing_client_badge">Developer: Jai Bhuvan Builder Pvt. Ltd</div>
+          <h3 class="ongoing_client_title">Mall De Goa</h3>
+          <p class="ongoing_client_location">Goa</p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <script>
+    // Filter logic with improved accessibility
+    const buttons = document.querySelectorAll('.clint_dev_filters .clint_dev_btn');
+    const clint_dev_cards = document.querySelectorAll('.clint_dev_card');
+    const statusEl = document.getElementById('filter-status');
+
+    function setFilter(filter) {
+      buttons.forEach(b => {
+        const isActive = b.getAttribute('data-filter') === filter;
+        b.classList.toggle('active', isActive);
+        b.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        b.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      });
+      let shownCount = 0;
+      clint_dev_cards.forEach(c => {
+        const type = c.getAttribute('data-type');
+        if (filter === 'all' || type === filter) {
+          c.style.display = '';
+          shownCount++;
+        } else {
+          c.style.display = 'none';
+        }
+      });
+      const label = filter === 'all' ? 'all entries' : filter === 'developers' ? 'Developers only' : 'Architecture only';
+      statusEl.textContent = `Showing ${label} (${shownCount} item${shownCount !== 1 ? 's' : ''})`;
+    }
+
+    buttons.forEach((b, idx) => {
+      b.addEventListener('click', () => {
+        setFilter(b.getAttribute('data-filter'));
+      });
+      b.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+          e.preventDefault();
+          const dir = e.key === 'ArrowRight' ? 1 : -1;
+          let newIndex = (idx + dir + buttons.length) % buttons.length;
+          buttons[newIndex].click();
+        }
+      });
+    });
+
+    // initial state
+    setFilter('all');
+  </script>
+
+
+
+<!-- ongonig -->
+
+  <script>
+    // Lazy load ongoing_client images
+    const imgs = Array.from(document.querySelectorAll('.ongoing_client_image'));
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver((entries, observer) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            const img = e.target;
+            img.src = img.getAttribute('data-src');
+            img.onload = () => {
+              img.classList.add('loaded');
+            };
+            observer.unobserve(img);
+          }
+        });
+      }, {rootMargin: "120px"});
+      imgs.forEach(i => io.observe(i));
+    } else {
+      // fallback
+      imgs.forEach(img => {
+        img.src = img.getAttribute('data-src');
+        img.onload = () => img.classList.add('loaded');
+      });
+    }
+  </script>
+
+  <?php include('footer.php'); ?>
+
+
+</body>
+
+</html>
