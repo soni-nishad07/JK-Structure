@@ -37,21 +37,7 @@
 
 
 
-  <div class="slider">
-
-<div class="slides">
-
-  <img src="./Ongoing_project/2_Hinduja Holdings/Hinduja (1).jpg" alt="Slide 2">
-  <img src="./Ongoing_project/2_Hinduja Holdings/Hinduja (3).jpg" alt="Slide 3">    
-  <img src="./Ongoing_project/2_Hinduja Holdings/Hinduja (2).jpg" alt="Slide 3">
-  <img src="./Ongoing_project/2_Hinduja Holdings/Hinduja (4).jpg" alt="Slide 4">
-  <img src="./Ongoing_project/3_Skav developers put Ltd/Skav.jpg" alt="Slide 5">
-  <img src="./Ongoing_project/4_woodsvale/Woodsvale (1).jpg" alt="Slide 6">
-  <img src="./Ongoing_project/4_woodsvale/Woodsvale (2).jpg" alt="Slide 7">
-  <img src="./Ongoing_project/4_woodsvale/Woodsvale (3).jpg" alt="Slide 8">
-  <img src="./Ongoing_project/1_Ambiant Maangalya Ashirvad/Ambiant.jpg" alt="Slide 1">
-  
-</div>
+  <div class="slider" style="    background: linear-gradient(180deg, #29446F 0%, #0CCBBC 205.24%);">
 
 
   <!-- Overlay -->
@@ -64,11 +50,6 @@
       </div>
       <p>Get in touch with our expert team for consultation and project inquiries</p>
 </div>
-
-
-<!-- Navigation Arrows -->
-<button class="prev">&#10094;</button>
-<button class="next">&#10095;</button>
 </div>
 
 
@@ -143,45 +124,6 @@
   </div>
 
 
-
-
-    <!-- ------------------------------------- -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-  
-<script>
-const slides = document.querySelector('.slides');
-const images = document.querySelectorAll('.slides img');
-const prevBtn = document.querySelector('.prev');
-const nextBtn = document.querySelector('.next');
-
-let counter = 0;
-const totalSlides = images.length;
-
-function showSlide(index) {
-  if (index < 0) {
-    counter = totalSlides - 1;
-  } else if (index >= totalSlides) {
-    counter = 0;
-  } else {
-    counter = index;
-  }
-  slides.style.transform = `translateX(${-counter * 100}%)`;
-}
-
-prevBtn.addEventListener('click', () => {
-  showSlide(counter - 1);
-});
-
-nextBtn.addEventListener('click', () => {
-  showSlide(counter + 1);
-});
-
-// Optional Auto Slide (change time if needed)
-setInterval(() => {
-  showSlide(counter + 1);
-}, 5000);
-</script>
 
 
   <?php include('footer.php'); ?>
