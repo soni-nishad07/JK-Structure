@@ -15,3 +15,25 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
+
+
+
+    
+<!-- Floating Buttons -->
+<div class="floating-buttons">
+    <!-- WhatsApp -->
+    <a href="https://wa.me/919590714622" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Call -->
+    <a href="tel:+919590714622" class="call" title="Call Us">
+        <i class="fas fa-phone-alt"></i>
+    </a>
+    <!-- Email -->
+    <a href="mailto:sushilpanji@jkstructure.com" class="mail" title="Email Us">
+        <i class="fas fa-envelope"></i>
+    </a>
+</div>
+
+
+

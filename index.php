@@ -71,7 +71,7 @@
     <div class="home_overlay"></div>
 
 <!-- Content -->
-<div class="home_content">
+<!-- <div class="home_content">
   <div class="home_main-text">
     <span class="home_highlight">BUILD THE</span>
   </div>
@@ -80,7 +80,7 @@
     <span class="ps-3"></span>
     <span>TO</span><span>GE</span><span>TH</span><span>ER</span>
   </div>
-</div>
+</div> -->
 
 
   <!-- Navigation Arrows -->
