@@ -48,41 +48,6 @@
 
 
 
-  
-  <div class="slider"  style="    background: linear-gradient(180deg, #29446F 0%, #0CCBBC 205.24%);">
-
-  <!-- <div class="slides">
-
-    <img src="./Ongoing_project/2_Hinduja Holdings/Hinduja (1).jpg" alt="Slide 2">
-    <img src="./Ongoing_project/2_Hinduja Holdings/Hinduja (3).jpg" alt="Slide 3">    
-    <img src="./Ongoing_project/2_Hinduja Holdings/Hinduja (2).jpg" alt="Slide 3">
-    <img src="./Ongoing_project/2_Hinduja Holdings/Hinduja (4).jpg" alt="Slide 4">
-    <img src="./Ongoing_project/3_Skav developers put Ltd/Skav.jpg" alt="Slide 5">
-    <img src="./Ongoing_project/4_woodsvale/Woodsvale (1).jpg" alt="Slide 6">
-    <img src="./Ongoing_project/4_woodsvale/Woodsvale (2).jpg" alt="Slide 7">
-    <img src="./Ongoing_project/4_woodsvale/Woodsvale (3).jpg" alt="Slide 8">
-    <img src="./Ongoing_project/1_Ambiant Maangalya Ashirvad/Ambiant.jpg" alt="Slide 1">
-    
-  </div> -->
-
-
-    <!-- Overlay -->
-    <div class="home_overlay"></div>
-
-<!-- Content -->
-<div class="home_content">
-  <div class="home_main-text">
-    <span class="home_highlight">JK CONSTRUCTION</span>
-  </div>
-  <p>Leading multi-disciplinary civil engineering consultancy with over a decade of excellence</p>
-
-</div>
-
-</div>
-
-
-
-
 
   <section class="about_section">
     <div class="about_text">

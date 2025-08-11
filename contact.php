@@ -37,23 +37,6 @@
 
 
 
-  <div class="slider" style="    background: linear-gradient(180deg, #29446F 0%, #0CCBBC 205.24%);">
-
-
-  <!-- Overlay -->
-  <div class="home_overlay"></div>
-
-<!-- Content -->
-<div class="home_content">
-<div class="home_main-text">
-<span class="home_highlight">CONTACT US</span>
-      </div>
-      <p>Get in touch with our expert team for consultation and project inquiries</p>
-</div>
-</div>
-
-
-
 
 
 

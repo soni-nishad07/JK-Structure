@@ -34,23 +34,6 @@
 
 
 
-  <div class="slider"  style="    background: linear-gradient(180deg, #29446F 0%, #0CCBBC 205.24%);">
-
-  <!-- Overlay -->
-  <div class="home_overlay"></div>
-
-<!-- Content -->
-<div class="home_content">
-<div class="home_main-text">
-<span class="home_highlight">OUR SERVICES</span>
-      </div>
-      <p>Comprehensive engineering solutions across multiple disciplines to bring your vision to life</p>
-     </div>
-
-</div>
-
-
-
 
   <div class="service-enginneering_">
     <div class="container">

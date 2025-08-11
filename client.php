@@ -80,25 +80,6 @@
 
 
 
-  <div class="slider"  style="    background: linear-gradient(180deg, #29446F 0%, #0CCBBC 205.24%);">
-
-
-  <!-- Overlay -->
-  <div class="home_overlay"></div>
-
-<!-- Content -->
-<div class="home_content">
-<div class="home_main-text">
-        <span class="home_highlight">OUR CLIENTS</span>
-      </div>
-      <p>JK Structure collaborates with several renowned developers and architectural <br /> organizations. Below are a few of our esteemed partners in development and architecture.</p>
-</div>
-</div>
-
-
-
-
-
   <div class="clint_dev_container" aria-label="Developers and Architecture firms">
     <div class="client-deve">
       <header>

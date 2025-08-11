@@ -33,23 +33,6 @@
 
   <?php include('nav.php'); ?>
 
-  
-  
-  <div class="slider" style="    background: linear-gradient(180deg, #29446F 0%, #0CCBBC 205.24%);">
-
-  <!-- Overlay -->
-  <div class="home_overlay"></div>
-
-<!-- Content -->
-<div class="home_content">
-<div class="home_main-text">
-<span class="home_highlight">OUR Project</span>
-      </div>
-      <p>Showcasing our commitment to excellence across diverse construction and engineering projects</p>
-    </div>
-
-</div>
-
 
 
 

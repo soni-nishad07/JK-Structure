@@ -16,23 +16,6 @@
 
 
 
-  
-  <div class="slider"  style="    background: linear-gradient(180deg, #29446F 0%, #0CCBBC 205.24%);">
-
-  <!-- Overlay -->
-  <div class="home_overlay"></div>
-
-<!-- Content -->
-<div class="home_content">
-<div class="home_main-text">
-<span class="home_highlight">INFRASTRUCTURE & CAPABILITIES</span>
-      </div>
-      <p>State-of-the-art facilities and advanced technology infrastructure <br> supporting our engineering excellence</p>
-    </div>
-
-</div>
-
-
 
 
   <!-- ------------------------------- -->
