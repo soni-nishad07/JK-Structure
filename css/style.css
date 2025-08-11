@@ -24,7 +24,8 @@ html {
 
 a.nav-link {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
+  color: #000;
   margin: 0px 5px;
 }
 
@@ -49,7 +50,8 @@ a.nav-link {
 
 
 .navbar-nav {
-  background: #18253B;
+  /* background: #18253B; */
+  background: #0CCBBC;
   margin: auto;
   border: 1px solid #18253B;
   padding: 6px 6%;
@@ -703,17 +705,22 @@ body {
     flex-direction: column;
   }
 
+
+
+
   .home_footer_section {
     flex: 1 1 100%;
   }
 
   .home_footer_bottom {
     text-align: center;
+    display: block !important;
   }
 
   .home_footer_links {
     flex-direction: column;
     gap: 5px;
+    display: block;
   }
 }
 
@@ -1902,4 +1909,62 @@ body {
 
 
 
+
+
+
+    /* =====================Floting button================= */
+
+
+    /* Floating button container */
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 9999;
+}
+
+/* Each button */
+.floating-buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #25D366; /* WhatsApp green by default */
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, background-color 0.3s;
+}
+
+.floating-buttons a:hover {
+  transform: scale(1.1);
+}
+
+/* Colors for each type */
+.floating-buttons a.call {
+  background-color: #34b7f1; /* Blue for Call */
+}
+
+.floating-buttons a.mail {
+  background-color: #ff5e00; /* Orange for Email */
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .floating-buttons {
+      bottom: 15px;
+      right: 15px;
+  }
+  .floating-buttons a {
+      width: 45px;
+      height: 45px;
+      font-size: 20px;
+  }
+}
 
